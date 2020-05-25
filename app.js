@@ -1,4 +1,9 @@
-const hello = "Hello World from NODE JS";
+const { inc, dec, getCount } = require("./myModule");
 
-console.log(hello);
+inc();
+inc();
+inc();
+dec();
 
+
+console.log (getCount());
